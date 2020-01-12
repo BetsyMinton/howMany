@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>How Many</title>
+  <link rel="stylesheet" type="text/css" href="product_style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="product">
+    <div class="product-image">
+      <img :src="image" :alt="altText">
+    </div>
+    <div class="link">
+      <a :href="link"> Link to Amazon </a>
+    </div>
+  </div>
+  <h1>{{ product }} days left</h1>
+<h1>I can't wait for {{ product }}!</h1>
+</div>
+  <!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
